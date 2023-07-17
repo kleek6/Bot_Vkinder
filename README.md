@@ -1,7 +1,7 @@
 # Дипломный проект для *NETOLOGY* по курсу: "Python для начинающих"
 [![License](https://img.shields.io/github/license/m-lundberg/simple-pid.svg)](https://github.com/m-lundberg/simple-pid/blob/master/LICENSE.md)
 
-<img src="F:\YandexDisk\Mike\dip_bot\resources\imgs\logo.jpg" width="100"/>
+![Logo](resources/imgs/logo.jpg)
 
 ## Общие сведения
 VK бот  для для поиска людей, подходящих под условия, на основании информации о пользователе из VK:
