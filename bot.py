@@ -129,7 +129,7 @@ def set_search_param(user):
     age_to = age + AGE_DELTA
     request_data = {
         "sex": sex_partner,  # пол для поиска
-        "count": 1000,  # кол-во возвращаемых результатов
+        "count": 50,  # кол-во возвращаемых результатов
         "offset": 0,  #
         "city": city_id,
         "status": 6,  # в активном поиске
