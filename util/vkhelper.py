@@ -10,7 +10,7 @@ from util.helper import User
 
 
 class VK:
-
+ 
     def __init__(
             self,
             user_token: str,
@@ -25,10 +25,9 @@ class VK:
     def user_search_generator(self, request_data: dict):
         request_data.update({"count": self.count})
         request_data.update({"offset": 0})
+        result = self.user_api.method("users.search", request_data)
 
         while True:
-            result = self.user_api.method("users.search", request_data)
-
             # проверка результата
             if not (items := result.get('items')):
                 break
